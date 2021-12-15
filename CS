@@ -1,0 +1,23 @@
+void setup() {
+  // put your setup code here, to run once:
+
+//Pins assigned 
+pinMode(13,OUTPUT);
+pinMode(10,OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+//first LED
+digitalWrite(13,HIGH);
+delay(25);
+digitalWrite(13,LOW);
+delay(60);
+
+//second LED
+digitalWrite(10,HIGH);
+delay(25);
+digitalWrite(10,LOW);
+delay(60);
+}
